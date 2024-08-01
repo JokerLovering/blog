@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+    <head>
+                <title>Liunx命令 - 吴振浩的笔记本</title>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            
+            <link rel="canonical" href="https://jokerlovering.github.io/File/test/liunx%E5%91%BD%E4%BB%A4/">
+            
+
+            
+                <link  rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+            
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                        <script>hljs.initHighlightingOnLoad();</script>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../../../assets/css/main.min.css">
+                <script src="../../../search/main.js"></script>
+
+            
+                
+            
+    </head>
+
+    <body>
+        <div class="container py-3">
+            <header>
+                    <!-- block header -->
+<nav class="navbar navbar-expand-xl border-bottom">
+    <div class="container-fluid">
+        
+            <img class="logo" src="../../../assets/logo.png">
+        
+
+        
+            <span class="normal fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">吴振浩的笔记本</span>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+            <ul class="navbar-nav">
+
+                <!-- block menu -->
+                <li class="nav-item">
+                    <!-- block menu -->
+    
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../../..">[主页]</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class=" active 
+                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[测试]</a>
+                            <ul class="dropdown-menu">
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/" class="dropdown-item text-decoration-none ">软件测试</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95/" class="dropdown-item text-decoration-none ">功能测试</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/" class="dropdown-item text-decoration-none ">接口测试</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="../%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/" class="dropdown-item text-decoration-none ">性能测试</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="./" class="dropdown-item text-decoration-none  active ">Liunx命令</a>
+    </li>
+<!-- endblock -->
+                            </ul>
+                        </li>
+            </ul>
+        </li>
+<!-- endblock -->
+                </li>
+                <!-- endblock -->
+
+                <!-- block search -->
+                <li class="nav-item">
+                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="md-search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <!--  endblock -->
+
+                <!-- block source -->
+                <li class="nav-item">
+                    
+                        
+                            <!-- block source -->
+<div class="md-source source-detail">
+  <div class="md-source-repo-icon">
+    <i class="fa fa-github-alt" aria-hidden="true"></i>
+  </div>
+
+  <div class="md-source-repo-url">
+    <a href="https://github.com/JokerLovering/lovebooks.git.io" class="md-source">
+      JokerLovering/Books
+    </a>
+
+    <ul class="md-source-repo-text">
+      <li>
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        <img alt="GitHub tag (latest by date)"
+          src="https://img.shields.io/github/v/tag/JokerLovering/Books?color=white&label=%20&style=flat-square">
+      </li>
+
+      <li>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <img alt="GitHub Repo stars"
+          src="https://img.shields.io/github/stars/JokerLovering/Books?color=white&label=%20&style=flat-square">
+      </li>
+
+      <li>
+        <i class="fa fa-code-fork" aria-hidden="true"></i>
+        <img alt="GitHub forks"
+          src="https://img.shields.io/github/forks/JokerLovering/Books?color=white&label=%20&style=flat-square">
+      </li>
+    </ul>
+  </div>
+
+</div>
+<!--  endblock -->
+                        
+                    
+                </li>
+                <!--  endblock -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  endblock -->
+            </header>
+
+            <main><!-- block search -->
+<div class="collapse" id="collapseExample">
+    <div role="search" class="search-box">
+        <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+            <input type="text" name="q" class="search-query"
+            placeholder="Search docs" title="Type search term here" />
+        </form>
+    </div>
+</div>
+<!-- endblock -->
+                    <!-- block content -->
+<section class="container post">
+    <article>
+        <header>
+            
+                <h1 class="bold title" id="component-title">Liunx命令</h1>
+            
+        </header>
+        <p><p>. find 基本语法<br />find [PATH] [option] [action]<br /># 与时间有关的参数：<br />-mtime n : n为数字，意思为在n天之前的“一天内”被更改过的文件；<br />-mtime +n : 列出在n天之前（不含n天本身）被更改过的文件名；<br />-mtime -n : 列出在n天之内（含n天本身）被更改过的文件名；<br />-newer file : 列出比file还要新的文件名<br /># 例如：<br />find /root -mtime 0 # 在当前目录下查找今天之内有改动的文件</p>
+<h1 id="-user-name-name-group-name-name-uid-n-idn-gid-n-idn-find-homehadoop-user-hadoop-homehadoophadoop">与用户或用户组名有关的参数：<br />-user name : 列出文件所有者为name的文件<br />-group name : 列出文件所属用户组为name的文件<br />-uid n : 列出文件所有者为用户ID为n的文件<br />-gid n : 列出文件所属用户组为用户组ID为n的文件<br /># 例如：<br />find /home/hadoop -user hadoop # 在目录/home/hadoop中找出所有者为hadoop的文件<a class="headerlink" href="#-user-name-name-group-name-name-uid-n-idn-gid-n-idn-find-homehadoop-user-hadoop-homehadoophadoop" title="Permanent link">&para;</a></h1>
+<h1 id="-name-filename-filename-size-size-size-tpye-type-typetypefbcdlsocketsfifop-perm-mode-modemode0755-perm-mode-modemode-perm-mode-modemode-find-name-passwd-passwdfind-perm-0755-0755find-size-12k-12kbcbyte">与文件权限及名称有关的参数：<br />-name filename ：找出文件名为filename的文件<br />-size [+-]SIZE ：找出比SIZE还要大（+）或小（-）的文件<br />-tpye TYPE ：查找文件的类型为TYPE的文件，TYPE的值主要有：一般文件（f)、设备文件（b、c）、<br />目录（d）、连接文件（l）、socket（s）、FIFO管道文件（p）；<br />-perm mode ：查找文件权限刚好等于mode的文件，mode用数字表示，如0755；<br />-perm -mode ：查找文件权限必须要全部包括mode权限的文件，mode用数字表示<br />-perm +mode ：查找文件权限包含任一mode的权限的文件，mode用数字表示<br /># 例如：<br />find / -name passwd # 查找文件名为passwd的文件<br />find . -perm 0755 # 查找当前目录中文件权限的0755的文件<br />find . -size +12k # 查找当前目录中大于12KB的文件，注意c表示byte<br />使用截图：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099733632-3f558364-74b5-4694-984f-ef8d4d30eca7.webp#averageHue=%233c1832&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u7dbdb4c8&amp;originHeight=73&amp;originWidth=801&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uc821e8d2-c1bd-4c58-872e-d09e9402bbd&amp;title=" /><br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/png/42558921/1718099733651-ad6b26d0-8af0-41f3-a415-89a46872287b.png#averageHue=%23300a25&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u3fdb4b70&amp;originHeight=62&amp;originWidth=887&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u9d572e1d-f79b-47be-8819-e6bc669de39&amp;title=" /><a class="headerlink" href="#-name-filename-filename-size-size-size-tpye-type-typetypefbcdlsocketsfifop-perm-mode-modemode0755-perm-mode-modemode-perm-mode-modemode-find-name-passwd-passwdfind-perm-0755-0755find-size-12k-12kbcbyte" title="Permanent link">&para;</a></h1>
+<p><img alt="" src="https://cdn.nlark.com/yuque/0/2024/png/42558921/1718099733651-a0d1e545-1928-421b-ae6e-d20f50d66534.png#averageHue=%23300a25&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u44f86c56&amp;originHeight=62&amp;originWidth=887&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u6a9ae067-4fb2-4b63-81e1-40778f6e155&amp;title=" /><br />2. ls 命令，展示文件夹内内容，参数如下：</p>
+<p>-a ：全部的档案，连同隐藏档( 开头为 . 的档案) 一起列出来～<br />-A ：全部的档案，连同隐藏档，但不包括 . 与 .. 这两个目录，一起列出来～<br />-d ：仅列出目录本身，而不是列出目录内的档案数据<br />-f ：直接列出结果，而不进行排序 (ls 预设会以档名排序！)<br />-F ：根据档案、目录等信息，给予附加数据结构，例如：<br />*：代表可执行档； /：代表目录； =：代表 socket 档案； |：代表 FIFO 档案；<br />-h ：将档案容量以人类较易读的方式(例如 GB, KB 等等)列出来；<br />-i ：列出 inode 位置，而非列出档案属性；<br />-l ：长数据串行出，包含档案的属性等等数据；<br />-n ：列出 UID 与 GID 而非使用者与群组的名称 (UID与GID会在账号管理提到！)<br />-r ：将排序结果反向输出，例如：原本档名由小到大，反向则为由大到小；<br />-R ：连同子目录内容一起列出来；<br />-S ：以档案容量大小排序！<br />-t ：依时间排序<br />--color=never ：不要依据档案特性给予颜色显示；<br />--color=always ：显示颜色<br />--color=auto ：让系统自行依据设定来判断是否给予颜色<br />--full-time ：以完整时间模式 (包含年、月、日、时、分) 输出<br />--time={atime,ctime} ：输出 access 时间或 改变权限属性时间 (ctime)<br />而非内容变更时间 (modification time)<br />例如：<br />ls [-aAdfFhilRS] 目录名称<br />ls [--color={none,auto,always}] 目录名称<br />ls [--full-time] 目录名称<br />使用截图：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/png/42558921/1718099733840-6c98b553-26ad-4329-8715-9c9c98728d03.png#averageHue=%23300a24&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ued78a1ed&amp;originHeight=116&amp;originWidth=852&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u07c6c75f-630f-4c84-bdd0-cb69241bbb7&amp;title=" /><br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099733722-8962d2b2-3e7a-4793-8f2e-518d2981120f.webp#averageHue=%23462f4d&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u4193828f&amp;originHeight=200&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uacbcc729-2644-4db7-a643-cfd23c729c2&amp;title=" /><br />3. cd 命令：</p>
+<p>cd /root/Docements # 切换到目录/root/Docements<br />cd ./path # 切换到当前目录下的path目录中，“.”表示当前目录<br />cd ../path # 切换到上层目录中的path目录中，“..”表示上一层目录</p>
+<p><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099733993-41dd85af-4538-46cc-b033-4e22d7ac899a.webp#averageHue=%23412039&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uec608166&amp;originHeight=50&amp;originWidth=430&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u8be2bf58-6647-42d0-a218-e6443ff23b7&amp;title=" /></p>
+<ol>
+<li>tree命令，显示树形的层级目录结构，非原生命令，需要安装tree</li>
+</ol>
+<p>使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099733998-e993abd8-6ecb-4d5d-9e13-c4294a50c7d7.webp#averageHue=%2336122a&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uc30d92fe&amp;originHeight=357&amp;originWidth=426&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u1418bf3c-7352-4ea7-85ed-6f6b8ed59ce&amp;title=" /><br />5. cp 命令，作用复制，参数如下：<br />-a ：将文件的特性一起复制<br />-p ：连同文件的属性一起复制，而非使用默认方式，与-a相似，常用于备份<br />-i ：若目标文件已经存在时，在覆盖时会先询问操作的进行<br />-r ：递归持续复制，用于目录的复制行为<br />-u ：目标文件与源文件有差异时才会复制<br />编辑示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734014-d088c4e3-f081-4c68-8747-aaef63708779.webp#averageHue=%233a152f&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ud564b2bc&amp;originHeight=63&amp;originWidth=550&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ue63c5dd3-abc7-4010-b9ac-e5e4bf2726f&amp;title=" /><br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734171-fb3edc0c-af05-4f4a-beff-ed9ff67ab7b6.webp#averageHue=%2338132c&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u6580c854&amp;originHeight=114&amp;originWidth=391&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u2f60a646-ded9-48c9-ba2d-982c69cc108&amp;title=" /></p>
+<ol>
+<li>rm命令作用为删除，参数：</li>
+</ol>
+<p>-f ：就是force的意思，忽略不存在的文件，不会出现警告消息<br />-i ：互动模式，在删除前会询问用户是否操作<br />-r ：递归删除，最常用于目录删除，它是一个非常危险的参数<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734221-49d15b87-0808-4871-8016-e4e3e7a0114d.webp#averageHue=%2344213a&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u2e363cd6&amp;originHeight=60&amp;originWidth=546&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u40e021a4-12a0-4304-9964-192f1c2fedb&amp;title=" /><br />7. mv命令作用为移动文件：</p>
+<p>-f ：force强制的意思，如果目标文件已经存在，不会询问而直接覆盖<br />-i ：若目标文件已经存在，就会询问是否覆盖<br />-u ：若目标文件已经存在，且比目标文件新，才会更新<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734304-87dc9d78-a27c-4804-aca4-b6721d36246e.webp#averageHue=%233a162e&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u12262039&amp;originHeight=126&amp;originWidth=520&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u04a5a10a-7ba5-4629-9bc5-6b624dd445a&amp;title=" /><br />8. pwd命令，作用为查看”当前工作目录“的完整路径</p>
+<p>pwd -P # 显示出实际路径，而非使用连接（link）路径；pwd显示的是连接路径<br />使用截图：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734323-943b75b8-378f-4da9-90a6-cffa8dfa2d52.webp#averageHue=%23422038&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uf8de99d4&amp;originHeight=109&amp;originWidth=374&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uccc83261-84a4-48cf-a090-d3df62f09f1&amp;title=" /><br />9. tar命令，用于压缩解压：</p>
+<p>-c ：新建打包文件<br />-t ：查看打包文件的内容含有哪些文件名<br />-x ：解打包或解压缩的功能，可以搭配-C（大写）指定解压的目录，注意-c,-t,-x不能同时出现在同一条命令中<br />-j ：通过bzip2的支持进行压缩/解压缩<br />-z ：通过gzip的支持进行压缩/解压缩<br />-v ：在压缩/解压缩过程中，将正在处理的文件名显示出来<br />-f filename ：filename为要处理的文件<br />-C dir ：指定压缩/解压缩的目录dir<br />缩略版...</p>
+<p>压缩：tar -jcv -f filename.tar.bz2 要被处理的文件或目录名称<br />查询：tar -jtv -f filename.tar.bz2<br />解压：tar -jxv -f filename.tar.bz2 -C 欲解压缩的目录<br />10. mkdir命令创建目录：</p>
+<p>mkdir [选项]... 目录...<br />-m, --mode=模式，设定权限&lt;模式&gt; (类似 chmod)，而不是 rwxrwxrwx 减 umask<br />-p, --parents 可以是一个路径名称。此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录;<br />-v, --verbose 每次创建新目录都显示信息<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734440-896176c2-0743-49d3-bd4e-c1ea39ebf08f.webp#averageHue=%233b1630&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u82c7edbc&amp;originHeight=79&amp;originWidth=546&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ud2243db5-b1a8-48f4-9772-dbf0b3719d7&amp;title=" /></p>
+<ol>
+<li>rmdir 命令删除目录：</li>
+</ol>
+<p>rmdir [选项]... 目录...<br />-p 递归删除目录dirname，当子目录删除后其父目录为空时，也一同被删除。如果整个路径被删除或者由于某种原因保留部分路径，则系统在标准输出上显示相应的信息。<br />-v --verbose 显示指令执行过程<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734502-1641153c-ea48-43e6-9159-234aa62621a4.webp#averageHue=%23401d36&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u0f7df2ae&amp;originHeight=44&amp;originWidth=567&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ud0d15107-41ff-4f40-94fb-4d397d05c00&amp;title=" /><br />12. gzip 命令压缩文件或文件夹为 .gz文件：</p>
+<p>gzip[参数][文件或者目录]<br />-a or --ascii 使用ASCII文字模式。<br />-c or --stdout or --to-stdout 把压缩后的文件输出到标准输出设备，不去更动原始文件。<br />-d or --decompress or ----uncompress 解开压缩文件。<br />-f or --force 强行压缩文件。不理会文件名称 or 硬连接是否存在以及该文件是否为符号连接。<br />-h or --help 在线帮助。<br />-l or --list 列出压缩文件的相关信息。<br />-L or --license 显示版本与版权信息。<br />-n or --no-name 压缩文件时，不保存原来的文件名称及时间戳记。<br />-N or --name 压缩文件时，保存原来的文件名称及时间戳记。<br />-q or --quiet 不显示警告信息。<br />-r or --recursive 递归处理，将指定目录下的所有文件及子目录一并处理。<br />-S&lt;压缩字尾字符串&gt; or ----suffix&lt;压缩字尾字符串&gt; 更改压缩字尾字符串。<br />-t or --test 测试压缩文件是否正确无误。<br />-v or --verbose 显示指令执行过程。<br />-V or --version 显示版本信息。<br />-num 用指定的数字num调整压缩的速度，-1 or --fast表示最快压缩方法（低压缩比），-9 or --best表示最慢压缩方法（高压缩比）。系统缺省值为6。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734588-b17306ee-21ec-45e9-87e9-3b8ad4c62287.webp#averageHue=%23442037&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u7dbeca26&amp;originHeight=53&amp;originWidth=434&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u78ab0d14-da83-4999-9fbd-da65a304e51&amp;title=" /><br />二. 进程相关命令：</p>
+<ol>
+<li>ps 命令显示运行的进程，还会显示进程的一些信息如pid, cpu和内存使用情况等：</li>
+</ol>
+<p>-A ：所有的进程均显示出来<br />-a ：不与terminal有关的所有进程<br />-u ：有效用户的相关进程<br />-x ：一般与a参数一起使用，可列出较完整的信息<br />-l ：较长，较详细地将PID的信息列出<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734650-3619f8c5-4aee-48f3-ad8e-7d52f098b357.webp#averageHue=%23401d35&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uccbe0eaf&amp;originHeight=224&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u80411665-667d-4ee9-98c9-ad6ee7ab98e&amp;title=" /><br />14. kill 命令用于终止进程，参数：</p>
+<p>kill -signal PID</p>
+<p>1：SIGHUP，启动被终止的进程<br />2：SIGINT，相当于输入ctrl+c，中断一个程序的进行<br />9：SIGKILL，强制中断一个进程的进行<br />15：SIGTERM，以正常的结束进程方式来终止进程<br />17：SIGSTOP，相当于输入ctrl+z，暂停一个进程的进行<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734708-8d7251e7-156a-4aed-9dc1-0fb357cc68d7.webp#averageHue=%23411e35&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u2b726c46&amp;originHeight=142&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u1f484d1c-5894-4024-874b-38708d9a21c&amp;title=" /><br />15. killall 命令和参数：</p>
+<p>killall [-iIe] [command name]</p>
+<p>-i ：交互式的意思，若需要删除时，会询问用户<br />-e ：表示后面接的command name要一致，但command name不能超过15个字符<br />-I ：命令名称忽略大小写<br /># 例如：<br />killall -SIGHUP syslogd # 重新启动syslogd<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734852-f208c43b-f11e-442a-99f5-21b51659c770.webp#averageHue=%23411e35&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ue3fce91c&amp;originHeight=145&amp;originWidth=717&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ua2782904-7d15-4575-a03b-b7f9886ceaf&amp;title=" /><br />16. crontab命令是启动linux定时任务的服务</p>
+<p>service cron start # 启动cronjob<br />service cron stop # 停止cronjob<br />service cron restart # 重启cronjob<br />crontab -e # 编辑cronjob任务<br />使用示例：打开crontab -e后通过vi方式编辑任务列表<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734819-04da5cb7-5a8d-4f21-95de-0e55d416440d.webp#averageHue=%2336112a&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u92beff47&amp;originHeight=71&amp;originWidth=422&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uea532bc9-b6fc-4d14-a822-0cdc9995ed5&amp;title=" /><br />17. free 命令用于显示Linux系统中空闲的、已用的物理内存及swap内存,及被内核使用的buffer：</p>
+<p>free [参数]<br />-b 以Byte为单位显示内存使用情况。<br />-k 以KB为单位显示内存使用情况。<br />-m 以MB为单位显示内存使用情况。<br />-g 以GB为单位显示内存使用情况。<br />-o 不显示缓冲区调节列。<br />-s&lt;间隔秒数&gt; 持续观察内存使用状况。<br />-t 显示内存总和列。<br />-V 显示版本信息。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099734910-c4b366ba-afac-48a1-9e1e-31474ecc16f4.webp#averageHue=%233b1830&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ufc4b4e84&amp;originHeight=281&amp;originWidth=708&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uec42b0f6-21be-4d48-a5ad-29c5641451c&amp;title=" /><br />18. top 命令是Linux下常用的性能分析工具，能够实时显示系统中各个进程的资源占用状况，类似于Windows的任务管理器：</p>
+<p>top [参数]<br />-b 批处理<br />-c 显示完整的治命令<br />-I 忽略失效过程<br />-s 保密模式<br />-S 累积模式<br />-i&lt;时间&gt; 设置间隔时间<br />-u&lt;用户名&gt; 指定用户名<br />-p&lt;进程号&gt; 指定进程<br />-n&lt;次数&gt; 循环显示的次数<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735025-53494b16-e07b-4cb8-b7b4-e025c7aff50a.webp#averageHue=%233f1c34&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u6771efee&amp;originHeight=359&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u21dee830-0732-4b92-94b4-742e7fa0c82&amp;title=" /><br />三. 权限相关命令：</p>
+<ol>
+<li>chmod命令：</li>
+</ol>
+<p>chmod [-R] xyz 文件或目录<br />-R：进行递归的持续更改，即连同子目录下的所有文件都会更改<br />#同时，chmod还可以使用u（user）、g（group）、o（other）、a（all）和+（加入）、-（删除）、=（设置）跟rwx搭配来对文件的权限进行更改，编号是各种权限的数字代码，示例：<br />chmod 0755 file # 把file的文件权限改变为-rxwr-xr-x<br />chmod g+w file # 向file的文件权限中加入用户组可写权限<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735095-73c30205-4d4f-4f4b-8139-5e771d43dbe9.webp#averageHue=%23411f37&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u6abf78f6&amp;originHeight=154&amp;originWidth=601&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u00a98c77-757d-44ca-98a8-5b2c030b8b8&amp;title=" /></p>
+<ol>
+<li>chown命令改变文件所有者：<br />chown [para]... [owner][:[group]] file...<br />-c 显示更改的部分的信息<br />-f 忽略错误信息<br />-h 修复符号链接<br />-R 处理指定目录以及其子目录下的所有文件<br />-v 显示详细的处理信息<br />-deference 作用于符号链接的指向，而不是链接文件本身</li>
+</ol>
+<p>使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735183-1561672a-72f0-4191-adb3-1d14f8533faa.webp#averageHue=%2344223a&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ud8815e16&amp;originHeight=343&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u0925e7a4-abe0-43f3-85bc-a84990e7d4a&amp;title=" /></p>
+<ol>
+<li>chgrp命令，改变文件所属组：</li>
+</ol>
+<p>-c 当发生改变时输出调试信息<br />-f 不显示错误信息<br />-R 处理指定目录以及其子目录下的所有文件<br />-v 运行时显示详细的处理信息<br />--dereference 作用于符号链接的指向，而不是符号链接本身<br />--no-dereference 作用于符号链接本身<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735250-92fd6175-6663-4bc0-8afa-6b070f10660c.webp#averageHue=%23432139&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u338a0783&amp;originHeight=344&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ud1b87c38-a15c-4641-b434-5d35fe18dbf&amp;title=" /><br />22. useradd 命令建立用户账号：</p>
+<p>useradd [-mMnr][-c &lt;备注&gt;][-d &lt;登入目录&gt;][-e &lt;有效期限&gt;][-f &lt;缓冲天数&gt;][-g &lt;群组&gt;][-G &lt;群组&gt;][-s ][-u ][用户帐号]</p>
+<p>-c #&lt;备注&gt; 加上备注文字。备注文字会保存在passwd的备注栏位中。 <br />-d #&lt;登入目录&gt; 指定用户登入时的启始目录。<br />-D # 变更预设值．<br />-e # &lt;有效期限&gt; 指定帐号的有效期限。<br />-f # &lt;缓冲天数&gt; 指定在密码过期后多少天即关闭该帐号。<br />-g # &lt;群组&gt; 指定用户所属的群组。<br />-G # &lt;群组&gt; 指定用户所属的附加群组。<br />-m # 自动建立用户的登入目录。<br />-M # 不要自动建立用户的登入目录。<br />-n # 取消建立以用户名称为名的群组．<br />-r # 建立系统帐号。<br />-s # 指定用户登入后所使用的shell。<br />-u # 指定用户ID。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735245-18077510-e3d2-4026-8b41-68c1207d9c7d.webp#averageHue=%233c1832&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u3f30f324&amp;originHeight=64&amp;originWidth=511&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u945099ba-f517-4c19-a2c1-caa1b314b3b&amp;title=" /><br />23. usermod 修改用户信息：</p>
+<p>usermod -h<br />usermod [options] LOGIN<br />-c #后面接账号的说明，即/etc/passwd第五栏的说明栏，可以加入一些账号的说明<br />-d #后面接账号的家目录，即修改/etc/passwd的第六栏<br />-e #后面接日期，格式是YYYY-MM-DD也就是在/etc/shadow内的第八栏<br />-f #后面接天数，修改shadow的第七栏<br />-g #后面接主群组，修改/etc/passwd的第四个字段，即是GID的字段<br />-G #后面接附加群组，修改这个使用者能够支持的群组，修改的是/etc/group<br />-a #与 -G 合用，可增加附加群组的支持而非设定<br />-l #后面接账号名称。修改账号名称，/etc/passwd的第一栏<br />-s #后面接Shell的文件，例如/bin/bash或/bin/csh等等<br />-u #后面接 UID 数字，修改用户的UID /etc/passwd第三栏<br />-L #暂时将用户的密码冻结，让他无法登入。其实就是在/etc/shadow的密码栏前面加上了“!”<br />-U #将/etc/shadow 密码栏的“!”去掉<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735421-bed4628e-c32c-44c1-ae7c-5602d5b8f926.webp#averageHue=%23432039&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u082fead0&amp;originHeight=21&amp;originWidth=555&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u7f990bed-d2b5-439d-bd5d-4fd3ebe4a74&amp;title=" /><br />24. userdel 删除用户：</p>
+<p>userdel [options] LOGIN<br />-f # 强制删除，包括用户的一切相关内容，这个参数是危险的参数，不建议大家使用。详细说明看MAN<br />-r # 删除用户的家目录和用户的邮件池<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735432-7bd43db3-23f5-45c1-bb71-7b3972ed6dc8.webp#averageHue=%23411e38&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ue11d9f97&amp;originHeight=39&amp;originWidth=539&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ub48e8992-72d5-49ed-84cb-40777de2286&amp;title=" /><br />25. groupadd 命令用于将新组加入系统：<br />groupadd [－g gid] [－o]] [－r] [－f] groupname<br />－g gid：指定组ID号。<br />－o：允许组ID号，不必惟一。<br />－r：加入组ID号，低于499系统账号。<br />－f：加入已经有的组时，发展程序退出。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735499-51287cfe-f4f3-44de-9532-72fa354b7294.webp#averageHue=%2344223b&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u9ff1b36b&amp;originHeight=20&amp;originWidth=659&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u160688f9-1479-4d37-b9f4-306b34666de&amp;title=" /><br />26. groupdel 命令删除组：</p>
+<p>＃ 用于删除不再需要的组，如果指定的组中包含用户，则必须先删除组里面的用户&gt;以后，才能删除组<br />groupdel [options] GROUP<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735575-a86149fa-ae0a-432f-a5d9-4e00e183faf4.webp#averageHue=%233c1831&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u038a3145&amp;originHeight=38&amp;originWidth=601&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u2840b1eb-4442-40dd-b724-56d739c5279&amp;title=" /><br />27. sudo 用来以其他身份来执行命令，预设的身份为root:</p>
+<p>sudo(选项)(参数)<br />-b：在后台执行指令；<br />-h：显示帮助；<br />-H：将HOME环境变量设为新身份的HOME环境变量；<br />-k：结束密码的有效期限，也就是下次再执行sudo时便需要输入密码；。<br />-l：列出目前用户可执行与无法执行的指令；<br />-p：改变询问密码的提示符号；<br />-s：执行指定的shell；<br />-u&lt;用户&gt;：以指定的用户作为新的身份。若不加上此参数，则预设以root作为新的身份；<br />-v：延长密码有效期限5分钟；<br />-V ：显示版本信息。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735647-e5b266c1-635b-4654-ab5c-a9689f8a71be.webp#averageHue=%233c1831&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u818c1eed&amp;originHeight=38&amp;originWidth=601&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u284c7a3e-a0c3-4329-b9f5-7fc819058c9&amp;title=" /><br />28. passwd 设置用户的密码：</p>
+<p>passwd [OPTION...] <accountName><br />-k, --keep-tokens keep non-expired authentication tokens<br />-d, --delete delete the password for the named account (root only)<br />-l, --lock lock the named account (root only)<br />-u, --unlock unlock the named account (root only)<br />-f, --force force operation<br />-x, --maximum=DAYS maximum password lifetime (root only)<br />-n, --minimum=DAYS minimum password lifetime (root only)<br />-w, --warning=DAYS number of days warning users receives before password expiration (root only)<br />-i, --inactive=DAYS number of days after password expiration when an account becomes disabled (root only)<br />-S, --status report password status on the named account (root)<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735740-9911b04d-211f-40c2-af08-e44fe0a43b6a.webp#averageHue=%23442239&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uba5dfbbe&amp;originHeight=81&amp;originWidth=393&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uf61e56c8-525c-40dc-b374-34af04928a2&amp;title=" /></p>
+<ol>
+<li>groups 显示用户所属组：</li>
+</ol>
+<p>groups # 默认显示当前用户的组</p>
+<p>groups hadoop2 # 显示hadoop2用户的组<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735742-80f2500e-6be9-4599-aec5-0b9339624793.webp#averageHue=%233e1b33&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u80bad241&amp;originHeight=116&amp;originWidth=571&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ue255a550-08f6-41f1-9107-bd7fa7d2336&amp;title=" /><br />四. 文本查看编辑等命令</p>
+<ol>
+<li>vi/vim 是使用vi编辑器的命令：</li>
+</ol>
+<p>vi /var/log/aa.log # 打开 /var/log/aa.log文件并编辑<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099735838-fdbd2053-1e62-4133-ba66-f1ef5452f220.webp#averageHue=%23320d27&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u1f025596&amp;originHeight=162&amp;originWidth=296&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u79de3b12-55cb-40ac-9711-0b1051c6c78&amp;title=" /><br />vi的操作命令比较复杂，就不在这里详细展开了。</p>
+<ol>
+<li>cat 用途是连接文件或标准输入并打印。这个命令常用来显示文件内容，或者将几个文件连接起来显示，或者从标准输入读取内容并显示，它常与重定向符号配合使用。</li>
+</ol>
+<p>cat [选项] [文件]...<br />-A, --show-all 等价于 -vET<br />-b, --number-nonblank 对非空输出行编号<br />-e 等价于 -vE<br />-E, --show-ends 在每行结束处显示 $<br />-n, --number 对输出的所有行编号,由1开始对所有输出的行数编号<br />-s, --squeeze-blank 有连续两行以上的空白行，就代换为一行的空白行<br />-t 与 -vT 等价<br />-T, --show-tabs 将跳格字符显示为 ^I<br />-u (被忽略)<br />-v, --show-nonprinting 使用 ^ 和 M- 引用，除了 LFD 和 TAB 之外<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736016-cf4ca30b-09a2-4b86-aa75-b5069cd7e131.webp#averageHue=%2346243b&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u61329c8b&amp;originHeight=156&amp;originWidth=675&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u5b35fe98-4945-4680-927b-87e1fc1319e&amp;title=" /><br />32. more 命令和cat的功能一样都是查看文件里的内容，但有所不同的是more可以按页来查看文件的内容，还支持直接跳转行等功能：</p>
+<p>more [-dlfpcsu ] [-num ] [+/ pattern] [+ linenum] [file ... ]<br />命令参数：<br />+n 从笫n行开始显示<br />-n 定义屏幕大小为n行<br />+/pattern 在每个档案显示前搜寻该字串（pattern），然后从该字串前两行之后开始显示<br />-c 从顶部清屏，然后显示<br />-d 提示“Press space to continue，’q’ to quit（按空格键继续，按q键退出）”，禁用响铃功能<br />-l 忽略Ctrl+l（换页）字符<br />-p 通过清除窗口而不是滚屏来对文件进行换页，与-c选项相似<br />-s 把连续的多个空行显示为一行<br />-u 把文件内容中的下画线去掉<br />常用操作命令：<br />Enter 向下n行，需要定义。默认为1行<br />Ctrl+F 向下滚动一屏<br />空格键 向下滚动一屏<br />Ctrl+B 返回上一屏<br />= 输出当前行的行号<br />：f 输出文件名和当前行的行号<br />V 调用vi编辑器<br />!命令 调用Shell，并执行命令<br />q 退出more<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736078-7e852dff-7d0a-498e-a925-498f829f8e50.webp#averageHue=%23401d35&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u331011fe&amp;originHeight=345&amp;originWidth=516&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u78f6b44f-7f48-458e-a5f6-93605db3302&amp;title=" /><br />33. less 命令用法比起 more 更加的有弹性。在 more 的时候，我们并没有办法向前面翻， 只能往后面看，但若使用了 less 时，就可以使用 [pageup] [pagedown] 等按键的功能来往前往后翻看文件，更容易用来查看一个文件的内容！除此之外，在 less 里头可以拥有更多的搜索功能，不止可以向下搜，也可以向上搜。</p>
+<p>less [参数] 文件<br />-b &lt;缓冲区大小&gt; 设置缓冲区的大小<br />-e 当文件显示结束后，自动离开<br />-f 强迫打开特殊文件，例如外围设备代号、目录和二进制文件<br />-g 只标志最后搜索的关键词<br />-i 忽略搜索时的大小写<br />-m 显示类似more命令的百分比<br />-N 显示每行的行号<br />-o &lt;文件名&gt; 将less 输出的内容在指定文件中保存起来<br />-Q 不使用警告音<br />-s 显示连续空行为一行<br />-S 行过长时间将超出部分舍弃<br />-x &lt;数字&gt; 将“tab”键显示为规定的数字空格<br />/字符串：向下搜索“字符串”的功能<br />?字符串：向上搜索“字符串”的功能<br />n：重复前一个搜索（与 / 或 ? 有关）<br />N：反向重复前一个搜索（与 / 或 ? 有关）<br />b 向后翻一页<br />d 向后翻半页<br />h 显示帮助界面<br />Q 退出less 命令<br />u 向前滚动半页<br />y 向前滚动一行<br />空格键 滚动一行<br />回车键 滚动一页<br />[pagedown]： 向下翻动一页<br />[pageup]： 向上翻动一页<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736076-ce435e43-2777-4cc4-9af2-1c448d141bac.webp#averageHue=%233d1a32&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u167a650e&amp;originHeight=299&amp;originWidth=534&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ueac7566a-6361-4dae-853d-757ac357b9c&amp;title=" /><br />34. tail 命令</p>
+<h1 id="tail-ftail-f-filenamefilenametail">从指定点开始将文件写到标准输出.使用tail命令的-f选项可以方便的查阅正在改变的日志文件,tail -f filename会把filename里最尾部的内容显示在屏幕上,并且不但刷新,使你看到最新的文件内容.<br />tail[必要参数][选择参数][文件]<a class="headerlink" href="#tail-ftail-f-filenamefilenametail" title="Permanent link">&para;</a></h1>
+<p>-f 循环读取<br />-q 不显示处理信息<br />-v 显示详细的处理信息<br />-c&lt;数目&gt; 显示的字节数<br />-n&lt;行数&gt; 显示行数<br />--pid=PID 与-f合用,表示在进程ID,PID死掉之后结束.<br />-q, --quiet, --silent 从不输出给出文件名的首部<br />-s, --sleep-interval=S 与-f合用,表示在每次反复的间隔休眠S秒<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736142-d177b7d8-3bef-48b3-afbc-b4e1b0afeec2.webp#averageHue=%2339152e&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u603f7168&amp;originHeight=216&amp;originWidth=623&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uca1483b4-750e-4a81-a16d-90437fd7cc2&amp;title=" /><br />35. head 命令用于显示档案的开头至标准输出中，默认head命令打印其相应文件的开头10行：</p>
+<p>head [参数]... [文件]...<br />-q 隐藏文件名<br />-v 显示文件名<br />-c&lt;字节&gt; 显示字节数<br />-n&lt;行数&gt; 显示的行数<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736130-6d4dfe96-1a19-478d-90fa-eb16d86d25f1.webp#averageHue=%23432138&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u3600474b&amp;originHeight=112&amp;originWidth=638&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u82260c24-c979-42b6-a24e-7af91f2db0f&amp;title=" /><br />36. diff 命令用于比较两个文件或目录的不同：</p>
+<p>diff[参数][文件1或目录1][文件2或目录2]</p>
+<h1 id="diffdiff">diff命令能比较单个文件或者目录内容。如果指定比较的是文件，则只有当输入为文本文件时才有效。以逐行的方式，比较文本文件的异同处。如果指定比较的是目录的的时候，diff 命令会比较两个目录下名字相同的<br /># 文本文件。列出不同的二进制文件、公共子目录和只在一个目录出现的文件。<a class="headerlink" href="#diffdiff" title="Permanent link">&para;</a></h1>
+<p>-a or --text #diff预设只会逐行比较文本文件。<br />-b or --ignore-space-change #不检查空格字符的不同。<br />-B or --ignore-blank-lines #不检查空白行。<br />-c #显示全部内文，并标出不同之处。<br />-C or --context #与执行"-c-"指令相同。<br />-d or --minimal #使用不同的演算法，以较小的单位来做比较。<br />-D or ifdef #此参数的输出格式可用于前置处理器巨集。<br />-e or --ed #此参数的输出格式可用于ed的script文件。<br />-f or -forward-ed #输出的格式类似ed的script文件，但按照原来文件的顺序来显示不同处。<br />-H or --speed-large-files #比较大文件时，可加快速度。<br />-l or --ignore-matching-lines #若两个文件在某几行有所不同，而这几行同时都包含了选项中指定的字符 or 字符串，则不显示这两个文件的差异。<br />-i or --ignore-case #不检查大小写的不同。<br />-l or --paginate #将结果交由pr程序来分页。<br />-n or --rcs #将比较结果以RCS的格式来显示。<br />-N or --new-file #在比较目录时，若文件A仅出现在某个目录中，预设会显示：Only in目录：文件A若使用-N参数，则diff会将文件A与一个空白的文件比较。<br />-p #若比较的文件为C语言的程序码文件时，显示差异所在的函数名称。<br />-P or --unidirectional-new-file #与-N类似，但只有当第二个目录包含了一个第一个目录所没有的文件时，才会将这个文件与空白的文件做比较。<br />-q or --brief #仅显示有无差异，不显示详细的信息。<br />-r or --recursive #比较子目录中的文件。<br />-s or --report-identical-files #若没有发现任何差异，仍然显示信息。<br />-S or --starting-file #在比较目录时，从指定的文件开始比较。<br />-t or --expand-tabs #在输出时，将tab字符展开。<br />-T or --initial-tab #在每行前面加上tab字符以便对齐。<br />-u,-U or --unified= #以合并的方式来显示文件内容的不同。<br />-v or --version #显示版本信息。<br />-w or --ignore-all-space #忽略全部的空格字符。<br />-W or --width #在使用-y参数时，指定栏宽。<br />-x or --exclude #不比较选项中所指定的文件 or 目录。<br />-X or --exclude-from #您可以将文件 or 目录类型存成文本文件，然后在=中指定此文本文件。<br />-y or --side-by-side #以并列的方式显示文件的异同之处。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736525-40d3cda2-ee85-4fb0-b875-aa366f69daf1.webp#averageHue=%2337122b&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ucf065487&amp;originHeight=95&amp;originWidth=316&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ude522aa0-08c6-4635-b5a5-c5d307fb0ee&amp;title=" /><br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736459-f724c985-16c3-42ac-aa00-7082b28e08b2.webp#averageHue=%23401d36&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ub462c6a3&amp;originHeight=60&amp;originWidth=495&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uc5080ef6-25b1-464c-bfe9-93175ba79f8&amp;title=" /><br />网络相关命令：</p>
+<ol>
+<li>ping 用于确定主机与外部连接状态：</li>
+</ol>
+<p>ping [参数] [主机名或IP地址]<br />-d 使用Socket的SO_DEBUG功能。<br />-f 极限检测。大量且快速地送网络封包给一台机器，看它的回应。<br />-n 只输出数值。<br />-q 不显示任何传送封包的信息，只显示最后的结果。<br />-r 忽略普通的Routing Table，直接将数据包送到远端主机上。通常是查看本机的网络接口是否有问题。<br />-R 记录路由过程。<br />-v 详细显示指令的执行过程。<br /><p>-c 数目：在发送指定数目的包后停止。<br />-i 秒数：设定间隔几秒送一个网络封包给一台机器，预设值是一秒送一次。<br />-I 网络界面：使用指定的网络界面送出数据包。<br />-l 前置载入：设置在送出要求信息之前，先行发出的数据包。<br />-p 范本样式：设置填满数据包的范本样式。<br />-s 字节数：指定发送的数据字节数，预设值是56，加上8字节的ICMP头，一共是64ICMP数据字节。<br />-t 存活数值：设置存活数值TTL的大小。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736698-2aef60c3-1cc6-4c95-bce5-3bafefe676c4.webp#averageHue=%23401d35&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ua6001cba&amp;originHeight=307&amp;originWidth=574&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ud4c3af4c-db55-4abe-a71c-43bfe231ff8&amp;title=" /><br />38. ssh 命令用于远程登录上Linux主机：</p>
+<p>ssh [-l login_name] [-p port] [user@]hostname<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736525-b945d123-7035-426b-8f75-e2d2358ce4ae.webp#averageHue=%23090a08&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uc321dffd&amp;originHeight=132&amp;originWidth=637&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u338b64d5-621d-4fac-8652-f1cc8d2a050&amp;title=" /><br />39. scp 命令是secure copy的简写，用于在Linux下进行远程拷贝文件的命令，和它类似的命令有cp，不过cp只是在本机进行拷贝不能跨服务器，而且scp传输是加密的：</p>
+<p>scp [参数] [原路径] [目标路径]</p>
+<p>-1 强制scp命令使用协议ssh1<br />-2 强制scp命令使用协议ssh2<br />-4 强制scp命令只使用IPv4寻址<br />-6 强制scp命令只使用IPv6寻址<br />-B 使用批处理模式（传输过程中不询问传输口令或短语）<br />-C 允许压缩。（将-C标志传递给ssh，从而打开压缩功能）<br />-p 保留原文件的修改时间，访问时间和访问权限。<br />-q 不显示传输进度条。<br />-r 递归复制整个目录。<br />-v 详细方式显示输出。scp和ssh(1)会显示出整个过程的调试信息。这些信息用于调试连接，验证和配置问题。<br />-c cipher 以cipher将数据传输进行加密，这个选项将直接传递给ssh。<br />-F ssh_config 指定一个替代的ssh配置文件，此参数直接传递给ssh。<br />-i identity_file 从指定文件中读取传输时使用的密钥文件，此参数直接传递给ssh。<br />-l limit 限定用户所能使用的带宽，以Kbit/s为单位。<br />-o ssh_option 如果习惯于使用ssh_config(5)中的参数传递方式，<br />-P port 注意是大写的P, port是指定数据传输用到的端口号<br />-S program 指定加密传输时所使用的程序。此程序必须能够理解ssh(1)的选项。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736661-45e38ba6-b1c5-447a-85a0-dd10e8876a7d.webp#averageHue=%23412036&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=udac76e1b&amp;originHeight=185&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ua9f35f11-f90f-4f2c-91ae-cec95531390&amp;title=" /></p>
+<ol>
+<li>telnet 命令用来远程登录操作：</li>
+</ol>
+<p>telnet[参数][主机]</p>
+<p>-8 允许使用8位字符资料，包括输入与输出。<br />-a 尝试自动登入远端系统。<br />-b&lt;主机别名&gt; 使用别名指定远端主机名称。<br />-c 不读取用户专属目录里的.telnetrc文件。<br />-d 启动排错模式。<br />-e&lt;脱离字符&gt; 设置脱离字符。<br />-E 滤除脱离字符。<br />-f 此参数的效果和指定"-F"参数相同。<br />-F 使用Kerberos V5认证时，加上此参数可把本地主机的认证数据上传到远端主机。<br />-k&lt;域名&gt; 使用Kerberos认证时，加上此参数让远端主机采用指定的领域名，而非该主机的域名。<br />-K 不自动登入远端主机。<br />-l&lt;用户名称&gt; 指定要登入远端主机的用户名称。<br />-L 允许输出8位字符资料。<br />-n&lt;记录文件&gt; 指定文件记录相关信息。<br />-r 使用类似rlogin指令的用户界面。<br />-S&lt;服务类型&gt; 设置telnet连线所需的IP TOS信息。<br />-x 假设主机有支持数据加密的功能，就使用它。<br />-X&lt;认证形态&gt; 关闭指定的认证形态。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737149-9a89fe84-eb52-4028-aa0e-12e2f98ded9e.webp#averageHue=%233b1730&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ubd00e1f9&amp;originHeight=44&amp;originWidth=605&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u0ef35383-cddc-4c0e-be6c-7b4d78be3cd&amp;title=" /><br />41. wget 是从远程下载的工具：</p>
+<p>wget [参数] [URL地址]</p>
+<p>启动参数：<br />-V, –version 显示wget的版本后退出<br />-h, –help 打印语法帮助<br />-b, –background 启动后转入后台执行<br />-e, –execute=COMMAND 执行`.wgetrc’格式的命令，wgetrc格式参见/etc/wgetrc或~/.wgetrc</p>
+<p>记录和输入文件参数：<br />-o, –output-file=FILE 把记录写到FILE文件中<br />-a, –append-output=FILE 把记录追加到FILE文件中<br />-d, –debug 打印调试输出<br />-q, –quiet 安静模式(没有输出)<br />-v, –verbose 冗长模式(这是缺省设置)<br />-nv, –non-verbose 关掉冗长模式，但不是安静模式<br />-i, –input-file=FILE 下载在FILE文件中出现的URLs<br />-F, –force-html 把输入文件当作HTML格式文件对待<br />-B, –base=URL 将URL作为在-F -i参数指定的文件中出现的相对链接的前缀<br />–sslcertfile=FILE 可选客户端证书<br />–sslcertkey=KEYFILE 可选客户端证书的KEYFILE<br />–egd-file=FILE 指定EGD socket的文件名</p>
+<p>下载参数：<br />–bind-address=ADDRESS 指定本地使用地址(主机名或IP，当本地有多个IP或名字时使用)<br />-t, –tries=NUMBER 设定最大尝试链接次数(0 表示无限制).<br />-O –output-document=FILE 把文档写到FILE文件中<br />-nc, –no-clobber 不要覆盖存在的文件或使用.#前缀<br />-c, –continue 接着下载没下载完的文件<br />–progress=TYPE 设定进程条标记<br />-N, –timestamping 不要重新下载文件除非比本地文件新<br />-S, –server-response 打印服务器的回应<br />–spider 不下载任何东西<br />-T, –timeout=SECONDS 设定响应超时的秒数<br />-w, –wait=SECONDS 两次尝试之间间隔SECONDS秒<br />–waitretry=SECONDS 在重新链接之间等待1…SECONDS秒<br />–random-wait 在下载之间等待0…2*WAIT秒<br />-Y, –proxy=on/off 打开或关闭代理<br />-Q, –quota=NUMBER 设置下载的容量限制<br />–limit-rate=RATE 限定下载输率</p>
+<p>目录参数：<br />-nd –no-directories 不创建目录<br />-x, –force-directories 强制创建目录<br />-nH, –no-host-directories 不创建主机目录<br />-P, –directory-prefix=PREFIX 将文件保存到目录 PREFIX/…<br />–cut-dirs=NUMBER 忽略 NUMBER层远程目录</p>
+<p>HTTP 选项参数：<br />–http-user=USER 设定HTTP用户名为 USER.<br />–http-passwd=PASS 设定http密码为 PASS<br />-C, –cache=on/off 允许/不允许服务器端的数据缓存 (一般情况下允许)<br />-E, –html-extension 将所有text/html文档以.html扩展名保存<br />–ignore-length 忽略 <code>Content-Length’头域&lt;br /&gt;–header=STRING 在headers中插入字符串 STRING&lt;br /&gt;–proxy-user=USER 设定代理的用户名为 USER&lt;br /&gt;–proxy-passwd=PASS 设定代理的密码为 PASS&lt;br /&gt;–referer=URL 在HTTP请求中包含</code>Referer: URL’头<br />-s, –save-headers 保存HTTP头到文件<br />-U, –user-agent=AGENT 设定代理的名称为 AGENT而不是 Wget/VERSION<br />–no-http-keep-alive 关闭 HTTP活动链接 (永远链接)<br />–cookies=off 不使用 cookies<br />–load-cookies=FILE 在开始会话前从文件 FILE中加载cookie<br />–save-cookies=FILE 在会话结束后将 cookies保存到 FILE文件中</p>
+<p>FTP 选项参数：<br />-nr, –dont-remove-listing 不移走 `.listing’文件<br />-g, –glob=on/off 打开或关闭文件名的 globbing机制<br />–passive-ftp 使用被动传输模式 (缺省值).<br />–active-ftp 使用主动传输模式<br />–retr-symlinks 在递归的时候，将链接指向文件(而不是目录)</p>
+<p>递归下载参数：<br />-r, –recursive 递归下载－－慎用!<br />-l, –level=NUMBER 最大递归深度 (inf 或 0 代表无穷)<br />–delete-after 在现在完毕后局部删除文件<br />-k, –convert-links 转换非相对链接为相对链接<br />-K, –backup-converted 在转换文件X之前，将之备份为 X.orig<br />-m, –mirror 等价于 -r -N -l inf -nr<br />-p, –page-requisites 下载显示HTML文件的所有图片</p>
+<p>递归下载中的包含和不包含(accept/reject)：<br />-A, –accept=LIST 分号分隔的被接受扩展名的列表<br />-R, –reject=LIST 分号分隔的不被接受的扩展名的列表<br />-D, –domains=LIST 分号分隔的被接受域的列表<br />–exclude-domains=LIST 分号分隔的不被接受的域的列表<br />–follow-ftp 跟踪HTML文档中的FTP链接<br />–follow-tags=LIST 分号分隔的被跟踪的HTML标签的列表<br />-G, –ignore-tags=LIST 分号分隔的被忽略的HTML标签的列表<br />-H, –span-hosts 当递归时转到外部主机<br />-L, –relative 仅仅跟踪相对链接<br />-I, –include-directories=LIST 允许目录的列表<br />-X, –exclude-directories=LIST 不被包含目录的列表<br />-np, –no-parent 不要追溯到父目录<br />wget -S –spider url 不下载只显示过程<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736937-61273e36-3aaf-4fe5-b13e-8c21025606c2.webp#averageHue=%233f1c35&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ua520500d&amp;originHeight=85&amp;originWidth=855&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ua791b535-180d-41e4-bd60-09651afe916&amp;title=" /><br />42. ifconfig 命令用来查看和配置网络设备。当网络环境发生改变时可通过此命令对网络进行相应的配置：</p>
+<p>ifconfig [网络设备] [参数]</p>
+<p>up 启动指定网络设备/网卡。<br />down 关闭指定网络设备/网卡。该参数可以有效地阻止通过指定接口的IP信息流，如果想永久地关闭一个接口，我们还需要从核心路由表中将该接口的路由信息全部删除。<br />arp 设置指定网卡是否支持ARP协议。<br />-promisc 设置是否支持网卡的promiscuous模式，如果选择此参数，网卡将接收网络中发给它所有的数据包<br />-allmulti 设置是否支持多播模式，如果选择此参数，网卡将接收网络中所有的多播数据包<br />-a 显示全部接口信息<br />-s 显示摘要信息（类似于 netstat -i）<br />add 给指定网卡配置IPv6地址<br />del 删除指定网卡的IPv6地址<br />&lt;硬件地址&gt; 配置网卡最大的传输单元<br />mtu&lt;字节数&gt; 设置网卡的最大传输单元 (bytes)<br />netmask&lt;子网掩码&gt; 设置网卡的子网掩码。掩码可以是有前缀0x的32位十六进制数，也可以是用点分开的4个十进制数。如果不打算将网络分成子网，可以不管这一选项；如果要使用子网，那么请记住，网络中每一个系统必须有相同子网掩码。<br />tunel 建立隧道<br />dstaddr 设定一个远端地址，建立点对点通信<br />-broadcast&lt;地址&gt; 为指定网卡设置广播协议<br />-pointtopoint&lt;地址&gt; 为网卡设置点对点通讯协议<br />multicast 为网卡设置组播标志<br />address 为网卡设置IPv4地址<br />txqueuelen&lt;长度&gt; 为网卡设置传输列队的长度<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099736950-9a8fe09b-1e5c-4220-adfe-295800108b36.webp#averageHue=%233c1931&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u0bcd4e1c&amp;originHeight=400&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u7c95a5e5-947c-4095-8e8d-b0e96e52508&amp;title=" /><br />43. route</p>
+<p>route [-f] [-p] [Command [Destination] [mask Netmask] [Gateway] [metric Metric]] [if Interface]]<br />-c # 显示更多信息<br />-n # 不解析名字<br />-v # 显示详细的处理信息<br />-F # 显示发送信息<br />-C # 显示路由缓存<br />-f # 清除所有网关入口的路由表。<br />-p # 与 add 命令一起使用时使路由具有永久性。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737219-ca67b6f1-ef70-47ae-83f0-da98c534dbaa.webp#averageHue=%233f1c34&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=udc9cd5c8&amp;originHeight=184&amp;originWidth=720&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u9be073a5-004c-44d0-91a4-d1549bf105f&amp;title=" /><br />五. 搜索文件：</p>
+<ol>
+<li>whereis 命令：</li>
+</ol>
+<h1 id="whereis-bman-m-sfindwhereislinux-whereislocatefind-whereislocate">whereis命令只能用于程序名的搜索，而且只搜索二进制文件（参数-b）、man说明文件（参数-m）和源代码文件（参数-s）。如果省略参数，则返回所有信息。和find相比，whereis查找的速度非常快，这是因为linux系统会将 系统内的所有文件都记录在一个数据库文件中，当使用whereis和locate时，会从数据库中查找数据，而不是像find命令那样，通过遍历硬盘来查找，效率自然会很高。 但是该数据库文件并不是实时更新，默认情况下时一星期更新一次，因此，我们在用whereis和locate 查找文件时，有时会找到已经被删除的数据，或者刚刚建立文件，却无法查找到，原因就是因为数据库文件没有被更新。<a class="headerlink" href="#whereis-bman-m-sfindwhereislinux-whereislocatefind-whereislocate" title="Permanent link">&para;</a></h1>
+<p>whereis [-bmsu] [BMS 目录名 -f ] 文件名<br />-b 定位可执行文件。<br />-m 定位帮助文件。<br />-s 定位源代码文件。<br />-u 搜索默认路径下除可执行文件、源代码文件、帮助文件以外的其它文件。<br />-B 指定搜索可执行文件的路径。<br />-M 指定搜索帮助文件的路径。<br />-S 指定搜索源代码文件的路径。</p>
+<p>使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737105-57b7b415-d04c-46b4-899e-93e71882dd83.webp#averageHue=%233e1b34&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ubca53e24&amp;originHeight=43&amp;originWidth=375&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=udff9abab-7386-4972-a26b-45b8ec0d51c&amp;title=" /><br />45. locate 命令</p>
+<p>＃ locate命令可以在搜寻数据库时快速找到档案，数据库由updatedb程序来更新，updatedb是由cron daemon周期性建立的，locate命令在搜寻数据库时比由整个由硬盘资料来搜寻资料来得快，但较差劲的是locate所找到的档案若是最近才建立或 刚更名的，可能会找不到，在内定值中，updatedb每天会跑一次，可以由修改crontab来更新设定值。(etc/crontab)</p>
+<p>Locate [选择参数] [样式]<br />-e 将排除在寻找的范围之外。<br />-1 如果 是 1．则启动安全模式。在安全模式下，使用者不会看到权限无法看到 的档案。这会始速度减慢，因为 locate 必须至实际的档案系统中取得档案的 权限资料。<br />-f 将特定的档案系统排除在外，例如我们没有到理要把 proc 档案系统中的档案 放在资料库中。<br />-q 安静模式，不会显示任何错误讯息。<br />-n 至多显示 n个输出。<br />-r 使用正规运算式 做寻找的条件。<br />-o 指定资料库存的名称。<br />-d 指定资料库的路径<br />-h 显示辅助讯息<br />-V 显示程式的版本讯息<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737423-f8b8bda9-c927-4ce5-90b0-f2269a524810.webp#averageHue=%23442239&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uff2cd792&amp;originHeight=62&amp;originWidth=350&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=uc7ec584d-fdcb-4372-853a-bc0585170b6&amp;title=" /><br />46. which 会在PATH变量指定的路径中，搜索某个系统命令的位置，并且返回第一个搜索结果：</p>
+<p>which 可执行文件名称<br />-n 指定文件名长度，指定的长度必须大于或等于所有文件中最长的文件名。<br />-p 与-n参数相同，但此处的包括了文件的路径。<br />-w 指定输出时栏位的宽度。<br />-V 显示版本信息<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737309-4070b926-9584-4e5d-96ea-d42b526a4b8c.webp#averageHue=%23422038&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u91bc2bda&amp;originHeight=84&amp;originWidth=391&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u568b6ace-7827-4710-abcc-eae674204f3&amp;title=" /><br />六. 其他：</p>
+<ol>
+<li>grep命令</li>
+</ol>
+<p>该命令常用于分析一行的信息，若当中有我们所需要的信息，就将该行显示出来，该命令通常与管道命令一起使用，用于对一些命令的输出进行筛选加工等等，比如可以加在ps, tail, cat后面</p>
+<p>它的简单语法为</p>
+<p>grep [-acinv] [--color=auto] '查找字符串' filename<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737468-efaac1ee-547a-4021-b4b4-e134ecffafed.webp#averageHue=%233c1931&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=uad0e461b&amp;originHeight=121&amp;originWidth=583&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=ubc9f639d-9c13-4f22-9313-c58be00f588&amp;title=" /><br />48. clear 命令用于清除终端屏幕上现有的文字内容，将之上滚：</p>
+<p>额，这条不需要啥示例，非常简单...用了以后就没有了...</p>
+<ol>
+<li>date 命令用于显示或设定时间：</li>
+</ol>
+<p>date [参数]... [+格式]</p>
+<p>必要参数:<br />%H 小时(以00-23来表示)。<br />%I 小时(以01-12来表示)。<br />%K 小时(以0-23来表示)。<br />%l 小时(以0-12来表示)。<br />%M 分钟(以00-59来表示)。<br />%P AM或PM。<br />%r 时间(含时分秒，小时以12小时AM/PM来表示)。<br />%s 总秒数。起算时间为1970-01-01 00:00:00 UTC。<br />%S 秒(以本地的惯用法来表示)。<br />%T 时间(含时分秒，小时以24小时制来表示)。<br />%X 时间(以本地的惯用法来表示)。<br />%Z 市区。<br />%a 星期的缩写。<br />%A 星期的完整名称。</p>
+<p>%b 月份英文名的缩写。<br />%B 月份的完整英文名称。<br />%c 日期与时间。只输入date指令也会显示同样的结果。<br />%d 日期(以01-31来表示)。<br />%D 日期(含年月日)。<br />%j 该年中的第几天。<br />%m 月份(以01-12来表示)。<br />%U 该年中的周数。<br />%w 该周的天数，0代表周日，1代表周一，异词类推。<br />%x 日期(以本地的惯用法来表示)。<br />%y 年份(以00-99来表示)。<br />%Y 年份(以四位数来表示)。<br />%n 在显示时，插入新的一行。<br />%t 在显示时，插入tab。<br />MM 月份(必要)<br />DD 日期(必要)<br />hh 小时(必要)<br />mm 分钟(必要)<br />ss 秒(选择性)</p>
+<p>选择参数:<br />-d&lt;字符串&gt; 显示字符串所指的日期与时间。字符串前后必须加上双引号。<br />-s&lt;字符串&gt; 根据字符串来设置日期与时间。字符串前后必须加上双引号。<br />-u 显示GMT。<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737578-457571e6-85e5-4625-8c7d-5c230786d734.webp#averageHue=%23422037&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=u8e2732fc&amp;originHeight=180&amp;originWidth=509&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u0d6f2b0e-aa7f-4560-bfa7-6f483c57cee&amp;title=" /><br />50. ln 命令是为某一个文件在另外一个位置建立一个同步的链接</p>
+<p>Linux文件系统中，有所谓的链接(link)，我们可以将其视为档案的别名，而链接又可分为两种 : 硬链接(hard link)与软链接(symbolic link)，硬链接的意思是一个档案可以有多个名称，而软链接的方式则是产生一个特殊的档案，该档案的内容是指向另一个档案的位置。硬链接是存在同一个文件系统中，而软链接却可以跨越不同的文件系统。</p>
+<p>软链接：<br />1.软链接，以路径的形式存在。类似于Windows操作系统中的快捷方式<br />2.软链接可以 跨文件系统 ，硬链接不可以<br />3.软链接可以对一个不存在的文件名进行链接<br />4.软链接可以对目录进行链接</p>
+<p>硬链接:<br />1.硬链接，以文件副本的形式存在。但不占用实际空间。<br />2.不允许给目录创建硬链接<br />3.硬链接只有在同一个文件系统中才能创建</p>
+<p>ln [参数][源文件或目录][目标文件或目录]<br />必要参数:<br />-b 删除，覆盖以前建立的链接<br />-d 允许超级用户制作目录的硬链接<br />-f 强制执行<br />-i 交互模式，文件存在则提示用户是否覆盖<br />-n 把符号链接视为一般目录<br />-s 软链接(符号链接)<br />-v 显示详细的处理过程<br />选择参数:<br />-S “-S&lt;字尾备份字符串&gt; ”或 “--suffix=&lt;字尾备份字符串&gt;”<br />-V “-V&lt;备份方式&gt;”或“--version-control=&lt;备份方式&gt;”<br />使用示例：<br /><img alt="" src="https://cdn.nlark.com/yuque/0/2024/webp/42558921/1718099737571-9d1b53db-15a4-4b45-9bb3-967b1f321534.webp#averageHue=%234d344f&amp;clientId=u532376b3-73af-4&amp;from=paste&amp;id=ud65a78b3&amp;originHeight=135&amp;originWidth=694&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;status=done&amp;style=none&amp;taskId=u47b49504-185c-422a-b734-9d97dad3e1a&amp;title=" /></p></p>
+    </article>
+</section>
+<!-- endblock -->
+            </main>
+
+            
+                    <!-- block preview -->
+        <div class="row row-cols-md-3 text-center pt-md-3" id="component-preview">
+            <div class="col themed-grid-col">
+                <a rel="prev" href="../%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/" class="nav-link">
+                    <i class="fa fa-arrow-left"></i> Previous
+                </a>
+            </div>
+            <div class="col themed-grid-col"></div>
+            <div class="col themed-grid-col">
+                <a rel="next" class="nav-link disabled">
+                    Next <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+<!-- endblock -->
+            
+
+            
+                   <!-- block footer -->
+<footer class="pt-4 my-md-5 pt-md-5 border-top" id="component-footer">
+    <div class="row">
+        <div class="col-12 col-md">
+                <!-- block copyright -->
+    <small class="d-block mb-3">Joker Lovering</small>
+
+    <small class="d-block mb-3">
+        listen to me
+        <a href="https://jokerlovering.github.io/" target="_blank" rel="noopener">
+            There is always something you can do, and succeed at.
+        </a>
+    </small>
+
+<!-- endblock -->
+        </div>
+    </div>
+</footer>
+<!-- endblock -->
+            
+        </div>
+
+            <script>var base_url = '../../..';</script>
+            <script src="../../../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../../../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../../../assets/js/main.min.js""></script>
+                <script src="../../../search/main.js" defer></script>
+
+    </body>
+
+</html>
