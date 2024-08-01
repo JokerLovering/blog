@@ -1,5 +1,5 @@
 from setuptools import setup
-from mkdocs_simple_blog import __version__
+from studiorxgy_blog import __version__
 
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -7,13 +7,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name="mkdocs-simple-blog",
-    fullname='mkdocs-simple-blog',
-    author='Fernando Celmer',
+    name="studiorxgy_blog",
+    fullname='studiorxgy_blog',
+    author='JokerLovering',  # 替换为您的名字
     version=__version__,
-    author_email='email@fernandocelmer.com',
-    url='https://github.com/FernandoCelmer/mkdocs-simple-blog',
-    description="Mkdocs Blog Theme",
+    author_email='wuzhenhao.china@outlook.com',  # 替换为您的邮箱
+    url='https://github.com/JokerLovering/blog/tree/blog',  # 替换为您的仓库链接
+    description="I want us to be together, for as long as we've got.",  # 替换为主题简短描述
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
@@ -32,14 +32,14 @@ setup(
     install_requires=[
         'mkdocs>=1.5.2'
     ],
-    packages=["mkdocs_simple_blog"],
-    package_data={'mkdocs_simple_blog': ['*','*/*','*/*/*']},
+    packages=["studiorxgy_blog"],  # 替换为您的主题文件夹名称
+    package_data={'studiorxgy_blog': ['*','*/*','*/*/*']},  # 如果需要的话，可以保留不变
     include_package_data=True,
     python_requires=">=3.6",
     zip_safe=True,
     entry_points={
         'mkdocs.themes': [
-            'simple-blog = mkdocs_simple_blog',
+            'studiorxgy_blog = studiorxgy_blog',  # 替换为主题名称和文件夹名称
         ]
     },
 )
