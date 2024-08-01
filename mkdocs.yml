@@ -1,0 +1,37 @@
+site_name: 吴振浩的笔记本
+repo_name: JokerLovering/Books
+repo_url: https://github.com/JokerLovering/lovebooks.git.io
+site_url: https://jokerlovering.github.io/
+copyright: Joker Lovering
+
+nav:
+    - 主页: index.md
+    - 测试:
+      - File/test/软件测试.md
+      - File/test/功能测试.md
+      - File/test/接口测试.md
+      - File/test/性能测试.md
+      - File/test/liunx命令.md
+
+theme:
+  name: simple-blog
+  favicon: assets/favicon.ico
+  logo: assets/logo.png
+  theme_style: light
+  site_name_style: normal
+  title_style: bold
+  colors:
+    text: black
+    title: black
+    primary: black
+    background: white
+  components:
+    site_name: true
+    title: true
+    menu: true
+    preview: true
+    footer: true
+    
+markdown_extensions:
+  - toc:
+      permalink: True
